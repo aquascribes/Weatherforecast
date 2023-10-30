@@ -1,0 +1,8 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import plotly.express as px
+/enter your data location below/
+data=pd.read_csv("/content/drive/MyDrive/datasets/DailyDelhiClimateTrain.csv")
+print(data.head())
